@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-vapor-dark text-white overflow-hidden;
+  }
+}
+
+@layer utilities {
+  .text-neon-glow {
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 40px currentColor;
+  }
+  .retro-border {
+    border: 3px solid;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.5);
+  }
+}
