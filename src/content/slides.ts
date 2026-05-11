@@ -19,8 +19,8 @@ import S16_MoxieMCP from '@/slides/S16_MoxieMCP';
 export const slides: Slide[] = [
   {
     id: 's1',
-    title: 'System Architecture for Non-Product People',
-    narration: "Welcome to System Architecture for Non-Product People. We're going to build an application, but we're going to build it in the 90s, because times were simpler there.",
+    title: 'System Architecture for Non-Technical People',
+    narration: "Welcome to System Architecture for Non-Technical People. We're going to build an application, but we're going to build it in the 90s, because times were simpler there.",
     component: S01_TitleSlide,
   },
   {

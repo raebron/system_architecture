@@ -38,14 +38,13 @@ export default function S03_MeetTheRoomies({ isPresenting }: { isPresenting: boo
 
         {/* Characters overlaid on house */}
         <motion.div
-          className="absolute flex flex-col items-center gap-1"
+          className="absolute inset-0"
           variants={container}
           initial="hidden"
           animate="show"
-          style={{ top: '18%', left: '50%', transform: 'translateX(-50%)' }}
         >
           {/* Jessica - Top Floor */}
-          <motion.div variants={item} className="flex items-center gap-2">
+          <motion.div variants={item} className="absolute flex items-center gap-2" style={{ top: '22%', left: '50%', transform: 'translateX(-50%)' }}>
             <Jessica className="w-14 h-14" expression="happy" animated />
             <div className="text-left">
               <div className="font-retro text-jessica text-[8px]">Jessica</div>
@@ -54,7 +53,7 @@ export default function S03_MeetTheRoomies({ isPresenting }: { isPresenting: boo
           </motion.div>
 
           {/* Jake - Middle Floor */}
-          <motion.div variants={item} className="flex items-center gap-2">
+          <motion.div variants={item} className="absolute flex items-center gap-2" style={{ top: '46%', left: '50%', transform: 'translateX(-50%)' }}>
             <Jake className="w-14 h-14" expression="happy" animated />
             <div className="text-left">
               <div className="font-retro text-jake text-[8px]">Jake</div>
@@ -63,7 +62,7 @@ export default function S03_MeetTheRoomies({ isPresenting }: { isPresenting: boo
           </motion.div>
 
           {/* Zane - Basement */}
-          <motion.div variants={item} className="flex items-center gap-2">
+          <motion.div variants={item} className="absolute flex items-center gap-2" style={{ top: '68%', left: '50%', transform: 'translateX(-50%)' }}>
             <Zane className="w-14 h-14" expression="angry" animated />
             <div className="text-left">
               <div className="font-retro text-zane text-[8px]">Zane</div>

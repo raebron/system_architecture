@@ -76,7 +76,7 @@ export default function S01_TitleSlide({ isPresenting }: { isPresenting: boolean
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
             >
-              for Non-Product People
+              for Non-Technical People
             </motion.h2>
             <motion.p
               className="font-body text-neon-yellow text-lg md:text-xl"

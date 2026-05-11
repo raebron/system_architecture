@@ -105,10 +105,18 @@ export default function S07_HowTheyTalk({ isPresenting }: { isPresenting: boolea
           <div>
             <div className="font-retro text-jake text-xs">Jake Services</div>
             <motion.div
-              className="bg-jake/10 border border-jake/30 rounded-lg px-3 py-1 mt-1"
+              className="bg-jessica/10 border border-jessica/30 rounded-lg px-3 py-1 mt-1"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2 }}
+            >
+              <span className="font-body text-sm text-jessica-light">&quot;Here&apos;s my payload&quot;</span>
+            </motion.div>
+            <motion.div
+              className="bg-jake/10 border border-jake/30 rounded-lg px-3 py-1 mt-1"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2.5 }}
             >
               <span className="font-body text-sm text-jake-light">&quot;SQL time, bro&quot;</span>
             </motion.div>
